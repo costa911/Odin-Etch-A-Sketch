@@ -3,6 +3,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(./background.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-blend-mode: normal;
+    background-position-x: right;
+    background-position-y: top;
 }
 
 .header {
@@ -21,6 +28,7 @@ body {
     width: 400px;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .board {
@@ -28,4 +36,17 @@ body {
     height: 500px;
     display: grid;
     border: 1px solid black;
+}
+
+.myavatar {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed to maintain aspect ratio */
+    border-radius: 50%;
+    /* This creates a round shape */
+    border: 2px solid #ffc107;
+    /* Add a border around the image with a food-inspired color */
+    object-fit: cover;
+    /* This ensures the image fills the space while maintaining aspect ratio */
 }
