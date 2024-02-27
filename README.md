@@ -1,6 +1,7 @@
 # Odin-Etch-A-Sketch
 
 Welcome to Odin-Etch-A-Sketch, a fun and interactive drawing application inspired by the classic Etch-A-Sketch toy part of the Odin Foundation course!
+https://www.theodinproject.com/paths/foundations/courses/foundations
 
 **Overview**
 Odin-Etch-A-Sketch provides users with a simple and intuitive interface to create drawings on a virtual canvas. With customizable grid sizes and color options.
@@ -24,3 +25,5 @@ Reset Canvas: Click the "Reset" button to clear the canvas and start over.
 Odin-Etch-A-Sketch is inspired by the classic Etch-A-Sketch toy and is built using HTML, CSS, and JavaScript. 
 Special thanks to Dors Coding School who had this set on youtube as a code along!
 Youtube Video: https://youtu.be/0YjwdFT-O9Y?si=u1LmSDfdRX9U1qlf 
+
+Link: https://costa911.github.io/Odin-Etch-A-Sketch/
