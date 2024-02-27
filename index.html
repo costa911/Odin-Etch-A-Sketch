@@ -18,11 +18,14 @@
         <h6>Select the size</h6>
         <button id="popup" class="btn btn-danger">Select</button>
     </div>
-    <div class="board"></div>
+    <p id="message"></p>
+    <p id="draw"></p>
+    <div class="board">
+    </div>
     <div class="footer">
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-outline-warning">Random</button>
-        <button class="btn btn-warning">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-outline-warning" onclick="setColor('random')">Random</button>
+        <button class="btn btn-warning" onclick="resetBoard()">Reset</button>
     </div>
 
 
